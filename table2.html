@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Table 2</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="nav">
+    <a class="link_back" href="index.html">Back</a>
+    <h1 class="table-title"> Table 2 </h1>
+  </div>
+
+  <div class="table">
+    <table class="table_2">
+      <caption class="caption">Mother table</caption>
+      <tr>
+        <td colspan="2">1-2</td>
+        <td class="w3-60">3<br>Ширина 60%</td>
+      </tr>
+      <tr>
+        <td class="w4-28">4<br>Ширина 28%</td>
+        <td colspan="2" rowspan="2">
+          <table class="table_2_child">
+            <caption class="caption">Child table</caption>
+            <tr>
+              <td>1</td>
+              <td class="table_2_child_-2-5-8" rowspan="3">2-5-8<br>Все колонки шириной 33%</td>
+              <td class="table_2_child_3-6" rowspan="2">3-6<br>Высота 200px</td>
+            </tr>
+            <tr>
+              <td class="table_2_child_4-7" rowspan="2">4-7<br>Высота 200px</td>
+            </tr>
+            <tr>
+              <td>9</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>7</td>
+      </tr>
+    </table>
+  </div>
+
+</body>
+
+</html>

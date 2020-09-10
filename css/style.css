@@ -1,0 +1,130 @@
+body {
+  background-image: url(../img/black.jpg);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.css_valid_logo {
+  display: block;
+  text-align: right;
+}
+
+.nav {
+  width: 30%;
+  height: 50%;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: center;
+  text-decoration-color: #fffaf0;
+  opacity: 0.8;
+  background-color: #696969;
+  box-shadow: 0 0 10px #00000080;
+  border-radius: 20px;
+}
+
+.nav-title,
+.table-title {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 100;
+  font-size: 30px;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px black;
+}
+
+.nav-link,
+.link_back {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #ffff00;
+  font-family: serif;
+  font-size: 1.5em;
+}
+
+.nav-link:hover,
+.link_back:hover {
+  transition: margin-left 0.25s, margin-top 0.25s, color 0.25s,
+    border-bottom-color 0.25s;
+  color: #ff0000;
+  margin-top: 1px;
+  margin-left: 3px;
+  color: #ff0000;
+}
+
+.caption {
+  font-family: italic;
+}
+
+.table {
+  background-color: #696969;
+  opacity: 0.8;
+  width: 90%;
+  height: 80%;
+  min-height: 450px;
+  margin: 70px auto;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 0 10px #00000080;
+  border-radius: 20px;
+}
+
+.table_1,
+.table_2 {
+  border: 1px solid #fff;
+  color: #fff;
+  border-collapse: collapse;
+  margin: 30px auto;
+  text-align: center;
+  width: 90%;
+  background-color: #696969;
+  text-decoration-color: #fffaf0;
+  box-shadow: 0 0 10px #00000080;
+}
+
+.table_1 {
+  width: 75%;
+  margin: 50px auto;
+}
+
+.w3-60 {
+  width: 60%;
+}
+
+.w4-28 {
+  width: 28%;
+}
+
+.table_2_child {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 50px auto;
+}
+
+.table_1_1-4-7,
+.table_2_child_3-6,
+.table_2_child_2-5-8,
+.table_2_child_4-7 {
+  width: 33.33%;
+}
+
+.table_1_5-6,
+.table_2_child_4-7,
+.table_2_child_3-6 {
+  height: 200px;
+}
+
+td {
+  border: 1px solid #fff;
+  height: 50px;
+  vertical-align: center;
+}
+
+.contacts {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 10px;
+  margin: 10px;
+  transition: margin-left 0.25s, margin-top 0.25s, color 0.25s;
+}
